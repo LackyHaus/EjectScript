@@ -23,7 +23,7 @@ jobs:
           .\ahk2exe\ahk2exe.exe /in eject.ahk /out eject.exe
 
       - name: Upload unsigned EXE
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: unsigned-exe
           path: eject.exe
